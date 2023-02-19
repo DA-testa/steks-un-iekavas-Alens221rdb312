@@ -44,7 +44,7 @@ if __name__ == "__main__":
         text = input()
         main()
     else:
-        with open() as f:
+        with open("test.txt") as f:
             for line in f:
                 text = line.strip()
                 mismatch = find_mismatch(text)
