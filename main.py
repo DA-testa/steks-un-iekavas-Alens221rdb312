@@ -15,7 +15,6 @@ def find_mismatch(text):
         if next in "([{":
             opening_brackets_stack.append(Bracket(next, i))
             # Process opening bracket, write your code here
-            pass
 
         if next in ")]}":
             if not opening_brackets_stack:
@@ -29,7 +28,6 @@ def find_mismatch(text):
             return top.position + 1
 
         return "Success"
-            pass
 
 
 def main():
@@ -37,12 +35,12 @@ def main():
     mismatch = find_mismatch(text)
     if isinstance(mismatch, int):
         print(mismatch)
-    else
+    else:
         print("Success")
     # Printing answer, write your code here
 
 
 if __name__ == "__main__":
     bruh = input()
-    if bruh[0] == "I"
+    if bruh[0] == "I":
         main()
