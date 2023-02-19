@@ -45,10 +45,3 @@ if __name__ == "__main__":
     bruh = input()
     if bruh[0] == "I":
         main()
-    elif bruh[0] == "F":
-        text = input()
-        mismatch = find_mismatch(text)
-        if isinstance(mismatch, int):
-            print(mismatch)
-        else:
-            print("Success")
